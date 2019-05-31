@@ -1,0 +1,31 @@
+
+
+<div class="container menu">
+  
+  <div class="row" style="margin-top:2%">
+      <div class="col-md-3 opcion borde"><a [routerLink]="['/listaAdmin']">Peliculas</a></div>
+      <div class="col-md-3 opcion"><a [routerLink]="['/listaAdmin']">Actores</a></div>
+      <div class="col-md-3 opcion"><a [routerLink]="['/listaAdmin']">Directorios</a></div>
+      <div class="col-md-3 opcion bordefinal "><a [routerLink]="['/listaAdmin']">Noticias</a></div>
+  </div>
+</div>
+
+<div class="container">
+<input class="form-control" id="myInput" type="text" placeholder="Search..">
+
+<div>
+      <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th rowspan=6>Lista de nuestras películas</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          <tr>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</div>
